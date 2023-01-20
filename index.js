@@ -1,7 +1,7 @@
-$(function() {
-    $("#carrossel"). jCarouselLite({
-        btnPrev: '.prev', 
-        btnNext: '.next',
-        visible: 3
-    })
-})
+$('.carousel').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+  });
