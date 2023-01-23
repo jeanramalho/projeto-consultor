@@ -81,13 +81,17 @@ body {
     height: 80%;
     display: flex;
     justify-content: space-around;
-    align-items: stretch;
+    align-items: stretch;    
+}
+
+.link-card {
+    text-decoration: none;
+    color: inherit;
 }
 
 .card {
     width: 33%;
-    height: 60vh;
-    border: 2px solid black;
+    height: 70vh;
     display: flex;    
     flex-direction: column;   
     align-items: center;
@@ -99,6 +103,19 @@ body {
     transform: scale(1.1);
     transition: all ease 0.8s;
     cursor: pointer;
+}
+
+.card:hover::after {
+    content: "Clique para Saber Mais";
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 16pt;
+    color: #fff;
+    margin-top: 40px;
+    border: 2px solid #a3a3a3;
+    border-radius: 8px;
+    padding: 8px;
+    background: #a3a3a3;
 }
 
 .num {
@@ -123,20 +140,50 @@ body {
     margin-top: 25px;
 }
 
-.txt h3 {
+.txt h2 {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 .txt p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
+    font-size: 15pt;
+    text-align: justify;
 }
 
 .lista-remedios {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
+    font-size: 15pt;
+}
+
+.palestra1 > .num {
+    color: #099de0;
+    border-color: #099de0 !important;
+}
+
+.palestra1 > .txt > h2 {
+    color: #099de0;
+}
+
+.palestra2 > .num {
+    color: #8b9934;
+    border-color: #8b9934 !important;
+}
+
+.palestra2 > .txt > h2 {
+    color: #8b9934;
+    margin-bottom: 25px;
+}
+
+.palestra3 > .num {
+    color: #db002f;
+    border-color: #db002f !important;
+}
+
+.palestra3 > .txt > h2 {
+    color: #db002f;
+    margin-bottom: 25px;
 }
 
 
