@@ -103,6 +103,11 @@ body {
     cursor: pointer;
 }
 
+.num:hover {
+    transform: scale(1.2);
+    transition: all ease 0.8s;
+}
+
 .num h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 4rem;
