@@ -87,6 +87,18 @@ body {
 .link-card {
     text-decoration: none;
     color: inherit;
+    margin: 30px;
+}
+
+.tit-palestra{
+    margin: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
+.bold-palestras {
+    font-weight: 1200;
 }
 
 .card {
