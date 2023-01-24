@@ -155,8 +155,6 @@ body {
     
 }
 
-
-
 .num h1{
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
@@ -218,7 +216,7 @@ body {
 .sobre-projeto {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 70%;
     padding: 30px;
     margin: 20px;
 }
@@ -260,4 +258,6 @@ body {
 
 .txt-sobre {
     width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
 }
