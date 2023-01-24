@@ -94,6 +94,7 @@ body {
 
 .link-card {
     text-decoration: none;
+    width: 75%;
     color: inherit;
     margin: 30px;
 }
@@ -112,11 +113,11 @@ body {
 
 .card {
     width: 33%;
-    height: 70vh;
+    height: 65vh;
     display: flex;    
     flex-direction: column;   
     align-items: center;
-    padding: 10px 100px;
+    padding: 10px 4%;
     margin: 20px;
 }
 
@@ -134,7 +135,7 @@ body {
     content: "Clique para Saber Mais";
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 13pt;
     color: #fff;
     margin-top: 40px;
     border: 2px solid #a3a3a3;
@@ -146,8 +147,8 @@ body {
 .num {
     border: 4px solid black;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 110px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +159,7 @@ body {
 
 .num h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .txt {
@@ -169,17 +170,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     font-weight: bolder;
+    font-size: 16pt;
 }
 
 .txt p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15pt;
-    text-align: justify;
+    font-size: 14pt;
+    text-align: justify-right;
 }
 
 .lista-remedios {
     font-family: 'Montserrat', sans-serif;
-    font-size: 15pt;
+    font-size: 14pt;
 }
 
 .palestra1 > .num {
@@ -256,4 +258,6 @@ body {
     align-items: center;
 }
 
-
+.txt-sobre {
+    width: 50%;
+}
