@@ -94,7 +94,7 @@ body {
 
 .link-card {
     text-decoration: none;
-    width: 75%;
+    width: 70%;
     color: inherit;
     margin: 30px;
 }
@@ -113,12 +113,12 @@ body {
 
 .card {
     width: 33%;
-    height: 65vh;
+    height: 60vh;
     display: flex;    
     flex-direction: column;   
     align-items: center;
     padding: 10px 4%;
-    margin: 20px;
+    margin: 10px;
 }
 
 .card:hover {
@@ -170,18 +170,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     font-weight: bolder;
-    font-size: 16pt;
+    font-size: 15pt;
 }
 
 .txt p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
+    font-size: 13pt;
     text-align: justify-right;
 }
 
 .lista-remedios {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
+    font-size: 13pt;
 }
 
 .palestra1 > .num {
