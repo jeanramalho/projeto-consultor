@@ -117,6 +117,10 @@ body {
     cursor: pointer;
 }
 
+.saiba {
+    
+}
+
 .card:hover::after {
     content: "Clique para Saber Mais";
     font-family: 'Montserrat', sans-serif;
