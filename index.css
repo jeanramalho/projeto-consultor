@@ -238,4 +238,22 @@ body {
     font-weight: 1200;
 }
 
+.cont-sobre {
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    height: 70vh;
+}
+
+.cont-sobre .img-sobre {
+    width: 50%;
+}
+
+.cont-sobre .img-sobre img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
