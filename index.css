@@ -221,6 +221,21 @@ body {
     margin: 20px;
 }
 
+.tit-sobre {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    height: 15%;
+    margin: 10px;
+}
 
+.tit-sobre p {
+    font-size: 16pt;
+    font-weight: 600;
+}
+
+.tit-sobre h1 span {
+    font-size: 35pt;
+    font-weight: 1200;
+}
 
 
