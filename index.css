@@ -213,7 +213,13 @@ body {
 
 /* Estilização sessão sobre o projeto */
 
-
+.sobre-projeto {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+    margin: 20px;
+}
 
 
 
