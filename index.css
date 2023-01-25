@@ -306,3 +306,21 @@ body {
 .icon-3, .icon-4 {
     color: #099de0;
 }
+
+
+/* Estiliza sessão do video institucional */
+
+.video-instit {
+    width: 85%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.video-home{
+    width: 70% !important;
+    height: 90%;
+}
