@@ -312,12 +312,13 @@ body {
 
 .video-instit {
     width: 85%;
-    height: 60vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 70px;
+    padding-top: 200px;
 }
 
 .tit-video{
@@ -341,8 +342,8 @@ body {
 }
 
 .video-home{
-    width: 70% !important;
-    height: 90%;
+    width: 90% !important;
+    height: auto;
     border: 0.5px thin #999;
     box-shadow: 1px 2px 2px 2px #a3a3a3;
     border-radius: 4px;
