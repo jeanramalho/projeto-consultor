@@ -95,7 +95,7 @@ body {
 
 .link-card {
     text-decoration: none;
-    width: 70%;
+    width: 85%;
     color: inherit;
     margin: 30px;
 }
@@ -217,8 +217,8 @@ body {
 .sobre-projeto {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    padding: 30px;
+    width: 85%;
+    padding: 10px 30px;
     margin: 20px;
 }
 
@@ -293,4 +293,16 @@ body {
 
 .card-info .fa-heartbeat {
     margin-bottom: 5px;
+}
+
+.icon-1, .icon-5 {
+    color: #db002f;
+}
+
+.icon-2, .icon-6 {
+    color: #8b9934;
+}
+
+.icon-3, .icon-4 {
+    color: #099de0;
 }
