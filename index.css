@@ -267,9 +267,30 @@ body {
 
 .info-sobre {
     width: 100%;
-    padding: 30px 0;
+    padding: 15px 0;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.info-left {
+    width: 50%;
+    height: 100%;
+}
+
+.info-right {
+    width: 50%;
+    height: 100%;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px 10px 0;
+    font-size: 12pt;
+}
+
+.card-info .fa-heartbeat {
+    margin-bottom: 5px;
 }
