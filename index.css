@@ -349,3 +349,42 @@ body {
     border-radius: 4px;
 }
 
+.case-suc {
+    width: 85%;
+    height: 100vh;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-case {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.txt-foto {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.foto-perfil {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foto-perfil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #db002f;
+    background-size: cover;
+}
