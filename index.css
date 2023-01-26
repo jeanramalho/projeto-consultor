@@ -432,7 +432,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
 }
 
 .aspas {
@@ -452,8 +451,12 @@ body {
 }
 
 .info-case p {
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 14pt;
     color: #8b9935;
-    font-weight: 500;
+    font-weight: 500;    
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
 }
