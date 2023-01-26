@@ -96,6 +96,7 @@ body {
 .link-card {
     text-decoration: none;
     width: 85%;
+    height: 80vh;
     color: inherit;
     margin: 30px;
 }
@@ -114,7 +115,7 @@ body {
 
 .card {
     width: 33%;
-    height: 100vh;
+    height: 90%;
     display: flex;    
     flex-direction: column;   
     align-items: center;
@@ -218,6 +219,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 85%;
+    height: 80vh;
     padding: 10px 30px;
     margin: 20px;
 }
@@ -261,6 +263,10 @@ body {
     width: 50%;
     font-family: 'Montserrat', sans-serif;
     font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estiliza cards de info */
@@ -312,13 +318,15 @@ body {
 
 .video-instit {
     width: 85%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 50px;
     padding-top: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .tit-video{
@@ -342,11 +350,12 @@ body {
 }
 
 .video-home{
-    width: 90% !important;
+    width: 75% !important;
     height: auto;
     border: 0.5px thin #999;
     box-shadow: 1px 2px 2px 2px #a3a3a3;
     border-radius: 4px;
+    margin-bottom: 40px;
 }
 
 /* Estilização sessão case de sucesso */
@@ -367,6 +376,7 @@ body {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
+    padding: 40px 0;
 }
 
 .cont-case {
@@ -421,12 +431,16 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .aspas {
+    width: 100%;
     font-size: 100pt;
     color: #8b9935;
     height: 15%;
+    display: flex;
 }
 
 .txt-case {
