@@ -466,11 +466,13 @@ body {
 .footer {
     width: 100%;
     margin-top: 30px;
-    height: 30vh;
+    height: 55vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    background: #F4F4F4;
+    padding-top: 90px;
 }
 
 .contatos-footer {
@@ -478,16 +480,29 @@ body {
     height: 90%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .card-footer {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    width: 18%;
-    height: 70%;
+    width: 22%;
+    height: 85%;
     margin-left: 10px;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.card-footer:hover {
+    transform: scale(1.1);
+    transition: all ease 0.5s;
+    background: #8b9935;
+    color: #fff;
+}
+
+.card-footer:hover > .icon-footer {
+    color: #fff;
 }
 
 .icon-footer {
