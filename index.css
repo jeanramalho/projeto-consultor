@@ -516,3 +516,17 @@ body {
 .title-footer {
     margin-bottom: 30px;
 }
+
+.conteudo-footer {
+    font-weight: 600;
+}
+
+.rodape-footer {
+    font-size: 9pt;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.rodape-footer p span {
+    color: #8b9935;
+}
