@@ -469,6 +469,8 @@ body {
     height: 30vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contatos-footer {
@@ -482,12 +484,16 @@ body {
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    width: 20%;
-    height: 80%;
+    width: 18%;
+    height: 70%;
     margin-left: 10px;
+    border-radius: 8px;
 }
 
 .icon-footer {
     color: #8b9934;
     border: 2px solid black;
+    font-size: 30pt;
+    margin-bottom: 15px;
+    margin-left: 8px;
 }
