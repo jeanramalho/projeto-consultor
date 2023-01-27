@@ -484,7 +484,6 @@ body {
 }
 
 .card-footer {
-    border: 2px solid black;
     display: flex;
     flex-direction: column;
     width: 22%;
@@ -492,6 +491,8 @@ body {
     margin-left: 10px;
     border-radius: 8px;
     cursor: pointer;
+    background: #FFF;
+    padding: 10px;
 }
 
 .card-footer:hover {
