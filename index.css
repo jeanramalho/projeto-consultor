@@ -508,8 +508,11 @@ body {
 
 .icon-footer {
     color: #8b9934;
-    border: 2px solid black;
     font-size: 30pt;
     margin-bottom: 15px;
     margin-left: 8px;
+}
+
+.title-footer {
+    margin-bottom: 30px;
 }
