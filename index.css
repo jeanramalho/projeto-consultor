@@ -384,7 +384,8 @@ body {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    padding: 40px 0;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
 }
 
 .cont-case {
@@ -444,7 +445,7 @@ body {
 
 .aspas {
     width: 100%;
-    font-size: 100pt;
+    font-size: 50pt;
     color: #8b9935;
     height: 15%;
     display: flex;
@@ -452,7 +453,7 @@ body {
 
 .txt-case {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
+    font-size: 10pt;
     text-align: justify;
     width: 100%;
     height: 50%;
@@ -461,7 +462,7 @@ body {
 .info-case p {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
+    font-size: 11pt;
     color: #8b9935;
     font-weight: 500;    
     display: flex;
