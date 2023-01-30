@@ -328,9 +328,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    padding-top: 200px;
     margin-bottom: 110px;
-    padding-bottom: 50px;
 }
 
 .tit-video{
@@ -355,7 +353,7 @@ body {
 }
 
 .video-home{
-    width: 75% !important;
+    width: 70% !important;
     height: auto;
     border: 0.5px thin #999;
     box-shadow: 1px 2px 2px 2px #a3a3a3;
