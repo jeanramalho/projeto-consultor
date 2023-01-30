@@ -329,7 +329,7 @@ body {
     align-items: center;
     margin-top: 50px;
     padding-top: 200px;
-    margin-bottom: 100px;
+    margin-bottom: 110px;
     padding-bottom: 50px;
 }
 
@@ -341,15 +341,16 @@ body {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
 }
 
 .tit-video p {
-    font-size: 16pt;
+    font-size: 13pt;
     font-weight: 600;
 }
 
 .tit-video h1 span {
-    font-size: 35pt;
+    font-size: 25pt;
     font-weight: 1200;
 }
 
