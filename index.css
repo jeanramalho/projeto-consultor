@@ -87,7 +87,7 @@ body {
 
 .palestras {
     width: 100%;
-    height: 80%;
+    height: 85%;
     display: flex;
     justify-content: space-around;
     align-items: stretch;    
@@ -98,7 +98,7 @@ body {
     width: 85%;
     height: 80vh;
     color: inherit;
-    margin: 30px;
+    margin: 20px;
 }
 
 .tit-palestra{
@@ -110,12 +110,12 @@ body {
 
 .bold-palestras {
     font-weight: 1200;
-    font-size: 35pt;
+    font-size: 30pt;
 }
 
 .card {
     width: 33%;
-    height: 90%;
+    height: 95%;
     display: flex;    
     flex-direction: column;   
     align-items: center;
