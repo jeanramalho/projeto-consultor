@@ -87,7 +87,7 @@ body {
 
 .palestras {
     width: 100%;
-    height: 85%;
+    height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: stretch;    
@@ -106,16 +106,17 @@ body {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: lighter;
+    font-size: 10pt;
 }
 
 .bold-palestras {
     font-weight: 1200;
-    font-size: 30pt;
+    font-size: 25pt;
 }
 
 .card {
     width: 33%;
-    height: 95%;
+    height: 100%;
     display: flex;    
     flex-direction: column;   
     align-items: center;
@@ -149,8 +150,8 @@ body {
 .num {
     border: 4px solid black;
     border-radius: 50%;
-    width: 110px;
-    height: 110px;
+    width: 80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,7 +160,7 @@ body {
 
 .num h1{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 25pt;
 }
 
 .txt {
@@ -170,18 +171,18 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     font-weight: bolder;
-    font-size: 15pt;
+    font-size: 13pt;
 }
 
 .txt p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
+    font-size: 11pt;
     text-align: justify-right;
 }
 
 .lista-remedios {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 .palestra1 > .num {
