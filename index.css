@@ -475,7 +475,7 @@ body {
 .footer {
     width: 100%;
     margin-top: 30px;
-    height: 55vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -517,17 +517,19 @@ body {
 
 .icon-footer {
     color: #8b9934;
-    font-size: 30pt;
+    font-size: 25pt;
     margin-bottom: 15px;
     margin-left: 8px;
 }
 
 .title-footer {
     margin-bottom: 30px;
+    font-size: 11pt;
 }
 
 .conteudo-footer {
     font-weight: 600;
+    font-size: 10pt;
 }
 
 .rodape-footer {
