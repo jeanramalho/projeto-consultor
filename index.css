@@ -554,6 +554,10 @@ body {
     .logo img {
         width: 40%;
     }
+
+    .navMenu {
+        display: none;
+    }
     
     .carousel {
         height: 40vh;
