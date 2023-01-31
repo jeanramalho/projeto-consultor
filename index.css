@@ -548,11 +548,11 @@ body {
     }
 
     .logo {
-        width: 35%;
+        width: 80%;
     }
 
     .logo img {
-        width: 70%;
+        width: 40%;
     }
     
     .carousel {
@@ -566,5 +566,12 @@ body {
     .slide img {
         width: 100%;
         height: 40vh;
+    }
+}
+
+@media (max-width: 620px) {
+
+    .logo img {
+        width: 70%;
     }
 }
