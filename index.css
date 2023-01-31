@@ -541,3 +541,7 @@ body {
 .rodape-footer p span {
     color: #8b9935;
 }
+
+@media(min-width: 1180px) {
+    
+}
