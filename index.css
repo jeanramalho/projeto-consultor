@@ -67,11 +67,11 @@ body {
 
 /* Estilização carrossel */
  
-/* .carousel {
+ .carousel {
     width: 98.7vw;
     z-index: -1;
   }
-
+/* 
 .slide {
     width: 100%;
     height: 70vh;
@@ -81,7 +81,7 @@ body {
 .slide img {
     width: 100%;
     height: 90vh;
-} */
+} */ */
 
 /* Estilização sessão palestras */
 
@@ -541,7 +541,7 @@ body {
 .rodape-footer p span {
     color: #8b9935;
 }
-
+/* 
 @media (max-width: 962px) {
     .header {
         height: 35px;
@@ -578,4 +578,4 @@ body {
     .logo img {
         width: 70%;
     }
-}
+} */
