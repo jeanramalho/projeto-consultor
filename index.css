@@ -68,20 +68,21 @@ body {
 /* Estilização carrossel */
  
  .carousel {
+    margin-top: 70px;
     width: 98.7vw;
-    z-index: -1;
+    z-index: 0;
   }
-/* 
-.slide {
+ 
+ .slide .carousel-item  {
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     background-size: cover;
 }
 
 .slide img {
     width: 100%;
     height: 90vh;
-} */ */
+}  
 
 /* Estilização sessão palestras */
 
