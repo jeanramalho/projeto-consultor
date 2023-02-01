@@ -68,8 +68,6 @@ body {
 /* Estilização carrossel */
  
  .carousel {
-    width: 98.7vw;
-    object-fit: cover;
     z-index: 0;
   }
  
