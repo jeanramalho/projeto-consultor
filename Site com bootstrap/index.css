@@ -15,3 +15,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.carousel .carousel-item {
+    width: 98.7vw !important;
+    height: 80vh !important;
+    background-size: cover;
+}
