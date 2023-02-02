@@ -89,10 +89,10 @@ body {
 }
 
 .link-card {
-    text-decoration: none;
+    text-decoration: none !important;
     width: 85%;
     height: 80vh;
-    color: inherit;
+    color: inherit !important;
     margin: 20px;
     margin-bottom: 110px;
 }
