@@ -601,7 +601,8 @@ body {
        flex-direction: row;
        align-items: center;
        justify-content: center;
-       margin: 20px;
+       margin-bottom: 20px;
+       margin-top: 20px;
     }
 
     .img-sobre {
@@ -615,8 +616,8 @@ body {
     }
 
     .img-sobre img {
-        width: 300px;
-        height: 400px;
+        width: 100%;
+        height: auto;
 
     }
 
