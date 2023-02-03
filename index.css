@@ -586,11 +586,17 @@ body {
         margin-bottom: 40px;
     }
 
+    .card {
+        height: auto;
+    }
+
     .sobre-projeto {
        width: 100%;
        flex-wrap: wrap;
        height: auto;
        flex-direction: row;
+       align-items: center;
+       justify-content: center;
     }
 
     .img-sobre {
@@ -607,6 +613,10 @@ body {
         width: 100%;
         flex-direction: column;
         height: 100%;
+    }
+
+    .txt-sobre{
+        width: 100%;
     }
 
 }
