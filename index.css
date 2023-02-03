@@ -578,6 +578,7 @@ body {
     .palestras {
         flex-wrap: wrap;
         flex: 1;
+        height: 100%;
     }
 
     .link-card {
