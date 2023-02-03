@@ -587,11 +587,10 @@ body {
     }
 
     .sobre-projeto {
-        width: 90vw;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        height: 200vh;
+       width: 100%;
+       flex-wrap: wrap;
+       height: auto;
+       flex-direction: row;
     }
 
     .img-sobre {
@@ -606,6 +605,8 @@ body {
 
     .cont-sobre{
         width: 100%;
+        flex-direction: column;
+        height: 100%;
     }
 
 }
