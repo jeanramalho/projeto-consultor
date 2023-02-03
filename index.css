@@ -585,6 +585,11 @@ body {
         height: max-content;
         margin-bottom: 40px;
     }
+
+    .sobre-projeto {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width: 620px) {
