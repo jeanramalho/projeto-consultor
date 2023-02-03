@@ -577,6 +577,12 @@ body {
 
     .palestras {
         flex-wrap: wrap;
+        flex: 1;
+    }
+
+    .link-card {
+        height: max-content;
+        margin-bottom: 40px;
     }
 }
 
