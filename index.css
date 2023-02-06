@@ -502,11 +502,13 @@ body {
     width: 22%;
     height: 80%;
     margin-left: 10px;
-    border-radius: 8px;
+    border-radius: 8px !important;
     cursor: pointer;
     background: #FFF;
     padding: 10px;
 }
+
+
 
 .card-footer:hover {
     transform: scale(1.1);
