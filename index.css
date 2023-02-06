@@ -673,6 +673,27 @@ body {
         height: auto;
     }
 
+    .case-suc{
+        height: auto;
+    }
+
+    .cont-case{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;  
+        padding: 10px;
+    }
+
+    .foto-case {
+        width: 90%;
+    }
+
+    .txt-foto {
+        margin-bottom: 30px;
+    }
+
+
+
 }
 
 @media (max-width: 620px) {
