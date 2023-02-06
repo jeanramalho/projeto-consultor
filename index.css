@@ -551,6 +551,14 @@ body {
         height: auto;
         margin-bottom: 50px;
     }
+    
+    .link-card{
+        margin-bottom: 40px;
+    }
+
+    .card {
+        height: 700px;
+    }
 }
 
 @media (max-width: 962px) {
