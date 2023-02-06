@@ -702,6 +702,19 @@ body {
         width: 95%;
     }
 
+    .footer{
+        height: auto;
+    }
+
+    .contatos-footer {
+        flex-direction: column;
+    }
+
+    .card-footer {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
 
 
 }
