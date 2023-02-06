@@ -91,10 +91,11 @@ body {
 .link-card {
     text-decoration: none !important;
     width: 85%;
-    height: 80vh;
+    height: auto;
     color: inherit !important;
     margin: 20px;
     margin-bottom: 110px;
+    padding: 0px 100px;
 }
 
 .tit-palestra{
