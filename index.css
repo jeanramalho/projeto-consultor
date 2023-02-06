@@ -555,7 +555,7 @@ body {
     
     .link-card{
         margin-bottom: 40px;
-        width: 95vw;
+        width: 95%;
         padding: 10px;
     }
 
@@ -675,6 +675,8 @@ body {
 
     .case-suc{
         height: auto;
+        margin-bottom: 40px;
+        padding-bottom: 10px;
     }
 
     .cont-case{
@@ -690,6 +692,14 @@ body {
 
     .txt-foto {
         margin-bottom: 30px;
+    }
+
+    .aspas {
+        height: auto;
+    }
+
+    .info-case{
+        width: 95%;
     }
 
 
