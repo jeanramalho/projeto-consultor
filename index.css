@@ -562,7 +562,45 @@ body {
 }
 
 @media (max-width: 1024px) {
+
+    .icone-menu {
+        display: block;
+    }
     
+    .navMenu {
+        display: block;
+        height: auto;
+        width: 350px;
+        margin-left: -90vw;
+        margin-right: -15px;
+        background-color: rgba(16, 16, 16, .1);
+        transition: all 0.5s;          
+    }
+
+    check-menu:checked ~ .menu {
+        transform: translateX(20vw);
+        transition: all 0.5s;
+    }
+
+    check-menu:checked ~ .navMenu {
+        transform: translateX(60vw);
+    }
+    
+    .hamburguer {
+        width: 3vw;
+
+    }
+
+    .navMenu {
+        margin-top: 70px;
+        margin-right: auto;
+    }
+
+    .icone-menu {
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
 
 }
 
