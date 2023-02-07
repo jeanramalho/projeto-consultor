@@ -67,11 +67,7 @@ body {
 
 /* Oculta menu hamburguer */
 
-.check-menu{
-    display: none;
-}
-
-.icone-menu{
+.menu-responsivo{
     display: none;
 }
 
