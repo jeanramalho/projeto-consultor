@@ -563,10 +563,6 @@ body {
 
 @media (max-width: 1100px) {
 
-    .icone-menu {
-        display: block;
-    }
-
     .navMenu {
         display: none;
     }
@@ -609,7 +605,7 @@ body {
     }
 
     .hamburguer {
-        width: 3vw;
+        width: 30px;
     }
 
     .itens-nav {
@@ -618,7 +614,7 @@ body {
     }
 
     .icone {
-        padding: 15px;
+        padding: 10px;
         position: absolute;
         z-index: 1;
     }
@@ -631,6 +627,22 @@ body {
 
     #check {
         display: none;
+    }
+
+    .header{
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+    }
+
+    .logo {
+        width: 90%;
+        height: 100%;
+    }
+
+    .logo img {
+        height: 80%;
+        width: auto;
     }
 
 }
@@ -687,17 +699,7 @@ body {
 }
 
 @media (max-width: 962px) {
-    .header {
-        height: 35px;
-    }
-
-    .logo {
-        width: 80%;
-    }
-
-    .logo img {
-        width: 40%;
-    }
+    
 
     .navMenu {
         display: none;
