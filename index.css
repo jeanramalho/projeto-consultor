@@ -577,6 +577,8 @@ body {
         width: 100vw;
         height: 100%;
         position: relative;
+        top: 0;
+        position: fixed;
     }
 
     .menu {
@@ -598,11 +600,16 @@ body {
 
     input[type="checkbox"]:checked~.menu-responsivo {
         position: fixed;
+        z-index: 0;
+    }
+
+    input[type="checkbox"]:checked~.icone {
+       position: relative;
+       z-index: 1;
     }
 
     .hamburguer {
         width: 3vw;
-
     }
 
     .itens-nav {
