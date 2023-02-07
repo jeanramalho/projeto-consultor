@@ -573,25 +573,31 @@ body {
 
     .menu-responsivo {
         display: flex;
+        z-index: 99999;
+        width: 100vw;
+        height: 100%;
+        position: relative;
     }
 
     .menu {
-        display: block;
-        height: auto;
-        width: 350px;
+        display: none;
+        height: 100vh;
+        width: 100vw;
         margin-left: -20vw;
         margin-right: -15px;
-        background-color: rgba(16, 16, 16, .1);
+        background-color: rgba(60, 116, 88, 0.459);
         transition: all 0.5s;
     }
 
     input[type="checkbox"]:checked~.menu {
+        display: flex;
+        position: fixed;
         transform: translateX(20vw);
-        transition: all 0.5s;
+        transition: all ease 0.7s;
     }
 
-    input[type="checkbox"]:checked~.conteudo {
-        transform: translateX(15vw);
+    input[type="checkbox"]:checked~.menu-responsivo {
+        position: fixed;
     }
 
     .hamburguer {
