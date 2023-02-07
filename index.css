@@ -65,6 +65,16 @@ body {
     color: white;
 }
 
+/* Oculta menu hamburguer */
+
+.check-menu{
+    display: none;
+}
+
+.icone-menu{
+    display: none;
+}
+
 /* Estilização carrossel */
  
  .carousel {
