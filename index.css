@@ -877,6 +877,19 @@ body {
         margin-bottom: 30px;
     }
 
+    .tit-case h1, .tit-sobre h1, .tit-palestra h1, .tit-video h1 {
+        font-size: 30pt;
+    }
+    
+    .tit-case p, .tit-sobre p, .tit-palestra p, .tit-video p {
+        font-size: 12pt;
+        font-weight: 600;
+    }
+    
+    .tit-case span, .tit-sobre span, .tit-palestra span, .tit-video span {
+        font-size: 20pt;
+    }
+
 
 
 }
