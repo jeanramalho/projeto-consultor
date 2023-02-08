@@ -611,14 +611,38 @@ body {
     }
 
     .itens-nav {
+        width: 100%;
+        text-align: center;
         margin-top: 70px;
         margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .icone {
         padding: 10px;
         position: absolute;
         z-index: 1;
+    }
+
+    .itens-nav a {
+        text-decoration: none;
+        color: inherit;
+        list-style-type: none;
+        width: 100%;
+        box-shadow: 0px 2px 2px 1px rgba(245, 243, 243, 0.2);
+        height: auto;
+        padding: 10px;
+        color: #fff;
+    }
+
+    .itens-menu{
+        font-family: 'Montserrat', sans-serif;
+        font-size: larger;
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-shadow: 0px 2px 2px 1px rgba(245, 243, 243, 0.2);
     }
 
     .corpo {
