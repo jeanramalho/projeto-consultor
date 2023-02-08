@@ -591,23 +591,33 @@ body {
 }
 
 @media (max-width: 1100px) {
+
+    /* Estiliza Body para responsivo */
+
     body {
         width: auto;
         padding: 0px;
     }
 
+    /* Estiliza header para responsivo */
+
     .header {
         width: 100%;
     }
 
+    /* Estiliza carrossel de banner no responsivo */
+
     .carousel {
         width: 100%;
     }
+    
+    /* Esconde menu desktop */
 
     .navMenu {
         display: none;
     }
 
+    /* Ativida e estiliza menu responsivo */
     .menu-responsivo {
         display: flex;
         z-index: 99999;
@@ -697,6 +707,8 @@ body {
         display: none;
     }
 
+    /* Ajusta Header para responsivo */
+
     .header{
         justify-content: center;
         align-items: center;
@@ -712,6 +724,8 @@ body {
         height: 80%;
         width: auto;
     }
+
+    /* Estiliza Div palestra para responsivo */
 
     .palestras {
         width: 98%;
@@ -746,6 +760,8 @@ body {
 
 @media (max-width: 1024px) {
    
+    /* Estiliza div sobre projeto para responsividade menor */
+
     .sobre-projeto {
         width: 100%;
         flex-wrap: wrap;
@@ -759,6 +775,8 @@ body {
     .tit-sobre {
         margin-bottom: 40px;
     }
+
+    /* Estiliza footer para responsividade menor */
 
     .footer {
         height: auto;
@@ -780,13 +798,10 @@ body {
 
 @media (max-width: 962px) {
     
-
-    .navMenu {
-        display: none;
-    }
+    /* Ajusta carrossel de banners para responsivo */
 
     .carousel {
-        height: 40vh;
+        height: auto;
     }
 
     .slide {
@@ -799,6 +814,7 @@ body {
         height: 40vh;
     }
 
+    /* Estiliza div sobre o projeto para responsividade celular */
    .sobre-projeto {
         width: 100%;
         flex-wrap: wrap;
@@ -836,6 +852,8 @@ body {
         width: 100%;
     }
 
+    /* Estiliza div Video para responsividade celular */
+
     .video-instit {
         margin-top: 40px;
         margin-bottom: 40px;
@@ -846,6 +864,8 @@ body {
         width: 95% !important;
         height: auto;
     }
+
+    /* Estiliza div case de sucesso para responsividade celular */
 
     .case-suc {
         height: auto;
@@ -880,6 +900,8 @@ body {
         height: auto;
     }
 
+    /* Estiliza footer para responsividade celualr */
+
     .contatos-footer {
         flex-direction: column;
     }
@@ -889,6 +911,8 @@ body {
         margin-bottom: 30px;
     }
 
+    /* Ajusta todos os titulos para resposividade celular */
+    
     .tit-case h1, .tit-sobre h1, .tit-palestra h1, .tit-video h1 {
         font-size: 30pt;
     }
