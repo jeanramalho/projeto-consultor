@@ -626,23 +626,24 @@ body {
         z-index: 1;
     }
 
-    .itens-nav a {
-        text-decoration: none;
-        color: inherit;
-        list-style-type: none;
+    .itens-menu  {
         width: 100%;
         box-shadow: 0px 2px 2px 1px rgba(245, 243, 243, 0.2);
         height: auto;
         padding: 10px;
+        padding-bottom: 25px;
         color: #fff;
-    }
-
-    .itens-menu{
         font-family: 'Montserrat', sans-serif;
         font-size: larger;
         text-transform: uppercase;
         font-weight: bolder;
         text-shadow: 0px 2px 2px 1px rgba(245, 243, 243, 0.2);
+    }
+
+    .itens-menu a {
+        text-decoration: none;
+        color: inherit;
+        list-style-type: none;
     }
 
     .corpo {
