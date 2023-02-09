@@ -303,3 +303,19 @@ body {
         width: auto;
     }
 }
+
+@media ( max-width: 962px) {
+    .contatos-footer {
+        flex-direction: column;
+    }
+
+    .footer {
+        height: auto;
+    }
+
+    .card-footer {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
