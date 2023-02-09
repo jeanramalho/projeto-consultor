@@ -46,6 +46,11 @@ body {
 
 }
 
+.navMenu li a {
+    color: inherit;
+    text-decoration: none;
+}
+
 .atual {
     background: #8b9935;
     color: white !important;
