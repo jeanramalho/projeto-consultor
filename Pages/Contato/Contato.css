@@ -76,3 +76,144 @@ body {
 .menu-responsivo {
     display: none;
 }
+
+
+
+
+
+
+@media (max-width: 1100px) {
+
+    /* Estiliza Body para responsivo */
+
+    body {
+        width: auto;
+        padding: 0px;
+    }
+
+    /* Estiliza header para responsivo */
+
+    .header {
+        width: 100%;
+    }
+
+    /* Estiliza carrossel de banner no responsivo */
+
+    .carousel {
+        width: 100%;
+    }
+    
+    /* Esconde menu desktop */
+
+    .navMenu {
+        display: none;
+    }
+
+    /* Ativa e estiliza menu responsivo */
+    .menu-responsivo {
+        display: flex;
+        z-index: 99999;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        position: fixed;
+        display: flex;
+    }
+
+    .menu {
+        flex: 1;
+        display: none;
+        height: 100%;
+        width: 100%;
+        margin-left: -20vw;
+        margin-right: -15px;
+        background-color: rgba(5, 5, 5, 0.568);
+        transition: all 0.5s;
+    }
+
+    input[type="checkbox"]:checked~.menu {
+        display: flex;
+        position: fixed;
+        transform: translateX(20vw);
+        transition: all ease 0.7s;
+    }
+
+    input[type="checkbox"]:checked~.menu-responsivo {
+        position: fixed;
+        z-index: 0;
+    }
+
+    input[type="checkbox"]:checked~.icone {
+       position: relative;
+       z-index: 1;
+    }
+
+    .hamburguer {
+        width: 30px;
+    }
+
+    .itens-nav {
+        width: 100%;
+        text-align: center;
+        margin-top: 70px;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icone {
+        padding: 10px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .itens-menu  {
+        width: 100%;
+        box-shadow: 0px 2px 2px 1px rgba(245, 243, 243, 0.2);
+        height: auto;
+        padding: 10px;
+        padding-bottom: 25px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: larger;
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-shadow: 0px 2px 2px 1px rgba(245, 243, 243, 0.2);
+    }
+
+    .itens-menu a {
+        text-decoration: none;
+        color: inherit;
+        list-style-type: none;
+    }
+
+    .corpo {
+        display: flex;
+        margin: auto;
+
+    }
+
+    #check {
+        display: none;
+    }
+
+    /* Ajusta Header para responsivo */
+
+    .header{
+        justify-content: center;
+        align-items: center;
+        height: 45px;
+    }
+
+    .logo {
+        width: 90%;
+        height: 100%;
+    }
+
+    .logo img {
+        height: 80%;
+        width: auto;
+    }
+}
