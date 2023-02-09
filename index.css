@@ -622,7 +622,7 @@ body {
         display: none;
     }
 
-    /* Ativida e estiliza menu responsivo */
+    /* Ativa e estiliza menu responsivo */
     .menu-responsivo {
         display: flex;
         z-index: 99999;
