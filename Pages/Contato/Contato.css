@@ -97,6 +97,8 @@ body {
     background: #F4F4F4;
     padding-top: 90px;
     margin-bottom: 0px !important;
+    position: absolute;
+    bottom: 0;
 }
 
 .contatos-footer {
