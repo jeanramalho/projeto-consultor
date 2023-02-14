@@ -344,6 +344,16 @@ body {
     .contato-cont {
         flex-direction: column-reverse;
     }
+
+    .lado-a {
+        width: 100%;
+    }
+
+
+
+    .lado-b {
+        width: 100%;
+    }
 }
 
 @media ( max-width: 962px) {
