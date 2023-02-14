@@ -9,13 +9,6 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-}
 
 /* Estilização do header */
 
@@ -83,6 +76,8 @@ body {
 .contato-cont {
     width: 100%;
     height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     margin-top: 90px;
     margin-bottom: 50px;
@@ -118,6 +113,10 @@ body {
 
 .title-footer {
     margin-left: 30px;
+}
+
+.conteudo-footer {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .card-contato:hover {
@@ -166,15 +165,16 @@ body {
 
 .footer {
     width: 100%;
-    height: auto;
+    height: 110px;
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
     background: #F4F4F4;
     padding-top: 10px;
     margin-bottom: 0px !important;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
