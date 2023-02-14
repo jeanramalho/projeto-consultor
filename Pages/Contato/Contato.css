@@ -82,9 +82,10 @@ body {
 /* Estilizando conteudo */
 .contato-cont {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     margin-top: 90px;
+    margin-bottom: 50px;
     align-items: center;
     flex-direction: row;
 }
@@ -173,7 +174,7 @@ body {
     background: #F4F4F4;
     padding-top: 10px;
     margin-bottom: 0px !important;
-    position: relative;
+    position: fixed;
     bottom: 0;
 }
 
