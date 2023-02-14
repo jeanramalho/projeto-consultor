@@ -115,11 +115,16 @@ body {
     height: 50px;    
 }
 
+.title-footer {
+    margin-left: 30px;
+}
+
 .card-contato:hover {
     transform: scale(1.1);
     transition: all ease 0.5s;
     background: #8b9935;
     color: #fff;
+    flex: 1;
 }
 
 .card-contato:hover>.icon-footer {
