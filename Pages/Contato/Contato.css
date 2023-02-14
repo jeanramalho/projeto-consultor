@@ -91,9 +91,11 @@ body {
 
 .lado-a {
     width: 48%;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-contato {
