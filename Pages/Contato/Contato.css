@@ -338,6 +338,12 @@ body {
         height: 80%;
         width: auto;
     }
+
+    /* Ajustando responsividade da página contato */
+
+    .contato-cont {
+        flex-direction: column-reverse;
+    }
 }
 
 @media ( max-width: 962px) {
