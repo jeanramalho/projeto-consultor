@@ -173,7 +173,7 @@ body {
     background: #F4F4F4;
     padding-top: 10px;
     margin-bottom: 0px !important;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
 
@@ -348,8 +348,6 @@ body {
     .lado-a {
         width: 100%;
     }
-
-
 
     .lado-b {
         width: 100%;
