@@ -139,6 +139,26 @@ body {
 }
 
 
+/* Etilizando mapa */
+
+.lado-b {
+    width: 48%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.mapa-contato {
+    width: 90%;
+    height: 80%;
+    border-radius: 8px;
+}
+
+
 
 /* estilizando footer */
 
