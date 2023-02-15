@@ -137,6 +137,29 @@ body {
     justify-content: center;
 }
 
+.header-tema {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header-tema h1 {
+    font-size: 40pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 1000;
+}
+
+.tema-1 {
+    color: #099de0;
+}
+
+.tema-2 {
+    color: #099de0;
+}
+.tema-3 {
+    color: #099de0;
+}
 
 
 
