@@ -128,7 +128,7 @@
 }
 
 .card-contato:hover>.icon-footer {
-    color: #fff;
+    color: #fff !important;
 }
 
 .icon-footer {
