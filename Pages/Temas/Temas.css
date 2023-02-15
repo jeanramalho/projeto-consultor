@@ -155,11 +155,20 @@ body {
 }
 
 .tema-2 {
-    color: #099de0;
+    color: #8b9934;
 }
 .tema-3 {
-    color: #099de0;
+    color: #db002f;
 }
+
+.header-title {
+    text-transform: uppercase;
+}
+
+.header-tema p {
+    font-size: 14pt;
+}
+
 
 
 
