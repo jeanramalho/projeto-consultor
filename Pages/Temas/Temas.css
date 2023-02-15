@@ -95,6 +95,42 @@ body {
     font-weight: bolder;
 }
 
+.tema-subcontent {
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.subtitle p {
+    font-weight: bolder;
+    font-size: 13pt;
+    margin-bottom: 10px;
+}
+
+.subtitle h1 {
+    font-size: 25pt;
+}
+
+.subtitle h1 span {
+    font-weight: 800;
+    font-size: 32pt;
+}
+
+
+
+
 
 
 
