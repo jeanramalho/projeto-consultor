@@ -209,6 +209,27 @@ body {
     flex-direction: column;
 }
 
+.title-area2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title-area2  p {
+    margin: 0;
+    font-size: 16pt;
+}
+
+.title-area2 h1 {
+    font-size: 35pt;
+}
+
+.title-area2 h1 span {
+    font-size: 50pt;
+    font-weight: 800;
+}
 
 
 
