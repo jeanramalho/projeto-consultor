@@ -174,11 +174,12 @@ body {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
+    justify-content: space-around;
 }
 
 .img-tema {
     width: 45%;
-    height: 60vh;
+    height: 70vh;
 }
 
 
@@ -188,7 +189,8 @@ body {
 }
 
 .text-tema {
-
+    width: 45%;
+    height: 70vh;
 }
 
 
