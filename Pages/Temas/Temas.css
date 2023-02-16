@@ -231,6 +231,42 @@ body {
     font-weight: 800;
 }
 
+.cards-area2 {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-area2 {
+    width: 350px;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.icone-area2 {
+    width: 90%;
+    height: 150px;
+    font-size: 90pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ico-area2-1 {
+    color: #099de0;
+}
+
+.ico-area2-2 {
+    color: #8b9935;
+}
+
+.ico-area2-3 {
+    color: #db002f;
+}
+
+
 
 
 
