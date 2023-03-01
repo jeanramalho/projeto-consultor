@@ -91,13 +91,13 @@ body {
 }
 
 .slide-item {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row !important;
 }
 
 .image-itens {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
