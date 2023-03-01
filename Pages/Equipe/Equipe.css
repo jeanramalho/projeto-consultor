@@ -81,8 +81,13 @@ body {
 /* Estilizando carrosel de cards */
 
 .big-slide {
-    width: 90vw;
+    width: 90vw !important;
     margin-top: 100px;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .slide-item {
@@ -99,14 +104,17 @@ body {
 }
 
 .card-item{
-    width: 250px;
+    width: 350px;
     min-width: 200px;
     flex: 1;
-    margin-left: 20px;
+    margin-left: 60px;
+    box-shadow: 1px 2px 2px 2px #a3a3a3;
+    border-radius: 8px;
 }
 
 .img-item {
    width: 100%;
+   border-radius: 8px;
 }
 
 
