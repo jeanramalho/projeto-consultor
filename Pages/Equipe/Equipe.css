@@ -80,9 +80,24 @@ body {
 
 /* Estilizando carrosel de cards */
 
+.big-slide {
+    width: 100%;
+}
+
 .slide-item {
     display: flex;
     flex-direction: row !important;
+}
+
+.image-itens {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-item {
+    width: 250px;
+    min-width: 200px;
+    flex: 1;
 }
 
 
