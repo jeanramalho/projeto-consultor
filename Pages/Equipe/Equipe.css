@@ -98,12 +98,18 @@ body {
     justify-content: space-evenly;
 }
 
-.img-item {
+.card-item{
     width: 250px;
     min-width: 200px;
     flex: 1;
     margin-left: 20px;
 }
+
+.img-item {
+   width: 100%;
+}
+
+
 
 
 
