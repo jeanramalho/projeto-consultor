@@ -104,7 +104,7 @@ body {
 }
 
 .card-item{
-    width: 350px;
+    max-width: 350px;
     min-width: 200px;
     flex: 1;
     margin-left: 60px;
