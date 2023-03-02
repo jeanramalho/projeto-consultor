@@ -79,12 +79,27 @@ body {
 
 
 /* Estilizando carrosel de cards */
-
+.carousel {
+    background-color: green !important;
+    height: 90vh;
+    width: 100%;
+}
 
 .image-itens{
     background-color: red;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card-item {
+    background: blue;
+    width: 350px;
+}
+
+.img-item {
+    width: 100%;
 }
 
 
