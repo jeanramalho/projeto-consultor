@@ -112,6 +112,12 @@ body {
     object-fit: cover;
 }
 
+.info-item {
+    width: 97%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
 
 
 
