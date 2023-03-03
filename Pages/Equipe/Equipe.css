@@ -80,7 +80,6 @@ body {
 
 /* Estilizando carrosel de cards */
 .carousel {
-    background-color: green !important;
     height: auto;
     padding: 15px 0;
     width: 100%;
@@ -88,7 +87,6 @@ body {
 }
 
 .image-itens{
-    background-color: red;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -96,7 +94,7 @@ body {
 }
 
 .card-item {
-    background: blue;
+    background: #4444;
     width: 350px;
     background-size: cover;
     border-radius: 8px;
