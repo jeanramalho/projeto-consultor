@@ -98,11 +98,18 @@ body {
     width: 350px;
     background-size: cover;
     border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
 }
 
 .img-item {
     border-radius: 8px;
-    width: 100%;
+    width: 97%;
+    height: 400px;
+    object-fit: cover;
 }
 
 
