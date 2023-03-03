@@ -128,6 +128,10 @@ body {
     font-size: 14pt;
 }
 
+.icon-prev {
+    background: red Impo !important;
+    color: red !important;
+}
 
 
 
