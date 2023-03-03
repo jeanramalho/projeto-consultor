@@ -91,10 +91,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    background-color: grey;
+    padding: 20px 0;
 }
 
 .card-item {
-    background: #4444;
+    background: #cecece;
     width: 350px;
     background-size: cover;
     border-radius: 8px;
@@ -115,7 +117,13 @@ body {
 .info-item {
     width: 97%;
     font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
 
+.nome-equipe {
+    width: 100%;
+    font-size: 15pt;
+    font-weight: 600;
 }
 
 
