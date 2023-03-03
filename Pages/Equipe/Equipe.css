@@ -128,7 +128,7 @@ body {
     font-size: 14pt;
 }
 
-.icon-prev {
+.icon-arrow {
     background: grey !important;
     color: white !important;
     height: auto !important;
@@ -140,7 +140,10 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    padding: 10px 5px;
+    border-radius: 9px;
 }
+
 
 
 
