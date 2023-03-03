@@ -129,8 +129,17 @@ body {
 }
 
 .icon-prev {
-    background: red Impo !important;
-    color: red !important;
+    background: grey !important;
+    color: white !important;
+    height: auto !important;
+    font-size: 30pt !important;
+    font-weight: 600 !important;
+    width: auto !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
