@@ -78,6 +78,45 @@ body {
 }
 
 
+/* Estilizando card de video */
+
+.desafios-videos {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-video {
+    background: #e4e0e0;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.title-card h1 {
+    text-transform: uppercase;
+    font-size: 20pt;
+}
+
+.title-card h1 span{
+    font-weight: 600;
+    font-size: 17pt;
+}
+
+.video-desafio {
+    width: 560px;
+    height: 315px;
+    flex: 2;
+    border-radius: 8px;
+}
+
 
 
 
@@ -301,6 +340,26 @@ body {
     .logo img {
         height: 80%;
         width: auto;
+    }
+
+    /* Estilizando videos para responsivo */
+
+    .desafios-videos {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-video {
+        width: 99.7%;
+        height: auto;
+        padding: 8px;
+    }
+
+    .video-desafio {
+        width: 99.8%;
+        height: width;
     }
 }
 
